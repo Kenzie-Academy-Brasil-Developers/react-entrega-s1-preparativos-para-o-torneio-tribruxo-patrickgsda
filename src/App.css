@@ -1,0 +1,46 @@
+@import url("https://fonts.googleapis.com/css?family=Montserrat");
+
+body {
+  background-image: url("./images/wallpaperflare.com_wallpaper.jpg");
+  background-size: 100%;
+  background-repeat: no-repeat;
+  background-color: #000000;
+  font-family: Montserrat, sans-serif;
+  text-align: center;
+  color: #b3b8cd;
+}
+.seach {
+  cursor: pointer;
+  background-color: rgb(15, 38, 41);
+  border: 0;
+  border-radius: 5px;
+  margin-left: 10px;
+  width: 300px;
+  padding: 10px;
+  margin-bottom: 15px;
+  color: #b3b8cd;
+  font-weight: 700;
+  font-size: 25px;
+}
+
+.seach:hover {
+  filter: brightness(1.8);
+}
+
+.seach:active {
+  filter: brightness(3);
+}
+
+.titles {
+  font-size: 35px 100%;
+  width: 100%;
+  max-width: 600px;
+  margin: 0 auto;
+  color: #b3b8cd;
+  background-color: rgba(0, 0, 0, 0.438);
+}
+.titles h2 {
+  font-size: 35px 100%;
+
+  margin-bottom: 30px;
+}
